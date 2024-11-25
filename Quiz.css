@@ -1,0 +1,77 @@
+
+.quizbox{
+    width: 400px;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding:28px;
+    border-radius:10px ;
+    box-shadow: 2px 2px 2px rgb(114, 36, 250);
+}
+#title{
+    margin-top: -10px;
+    font-weight: 700;
+}
+.line{
+    height: 1.6px;
+    width: 100%;
+    background-color: gray;
+    margin-top: -10px;
+}
+#question{
+    margin-top: 10px;
+    margin-bottom: -5px;
+    color: rgb(48, 47, 47);
+    font-weight: 560;
+    font-size: large;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    padding-left: 0px;
+}
+li{
+    list-style: none;
+    border: 2px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(27, 26, 26);
+    cursor: pointer;
+    font-weight: 500;
+}
+button{
+    width: 140px;
+    height: 38px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    font-size: medium;
+    margin: auto;
+    margin-top: 15px;
+    background-color: rgb(80, 14, 194) ;
+}
+#reset{
+    margin-left: 130px;
+
+}
+#resbox{
+    margin-bottom: -8px;
+}
+p{
+    margin: auto;  
+    margin-top: 10px;
+    color: rgb(27, 26, 26);
+    font-weight: 500;
+}
+.right{
+    background-color: rgba(86, 222, 86, 0.278);
+    border: 2px solid rgba(86, 222, 86, 0.581) ;
+}
+.wrong{
+    background-color: rgba(203, 75, 75, 0.329);
+    border: 2px solid rgb(203, 75, 75);
+}
